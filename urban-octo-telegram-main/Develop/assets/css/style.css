@@ -1,4 +1,4 @@
-* {
+    * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -8,7 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+/* Why have headers as class */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -23,16 +24,16 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
-.header div {
+/* this div changed to nav*/
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header div ul {
+/*fixed to nav not div */
+.header nav  ul {
     list-style-type: none;
 }
 
@@ -134,7 +135,8 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+/* Fixed oversized image by making content class here */
+.content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;

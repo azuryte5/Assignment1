@@ -9,43 +9,32 @@ body {
 }
 
 /* Why have headers as class */
-header {
+header a {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
+    text-decoration: none;
 }
 
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* this div changed to nav*/
-header nav {
+/* this div changed to nav added li*/
+header nav ul li {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    display: inline-block;
+    margin-left: 25px;
 }
 /*fixed to nav not div */
 .header nav  ul {
     list-style-type: none;
 }
 
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
 p {
     font-size: 16px;
@@ -74,6 +63,10 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+/* Fixed over size image */
+.content img {
+    max-height: 200px;
 }
 
 .benefits {
@@ -132,7 +125,7 @@ p {
 .benefit-cost img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 150px;   
 }
 
 /* Fixed oversized image by making content class here */

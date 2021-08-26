@@ -1,18 +1,18 @@
-    * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
 }
 
 body {
     background-color: #d9dcd6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Why have headers as class */
 
 header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 0px;
     background-color: #2a607c;
     color: #ffffff;
 }
@@ -20,7 +20,7 @@ header {
 header a {
     text-decoration: none;
     color: #d9dcd6;
-    padding: 55px;
+    padding: 20px;
   }
 
 header h1 {
@@ -34,9 +34,10 @@ header h1 .seo {
 
 header nav {
     padding-top: 15px;
-    margin-right: 20px;
+    margin-right: 10px;
     float: right;
     font-size: 20px;
+    font-weight: bold;
 
 }
 
@@ -47,19 +48,20 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 p {
     font-size: 16px;
 }
 
 .hero {
-    height:1300px;
+    height: 1050px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 0 px;
     background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 
 .float-left {

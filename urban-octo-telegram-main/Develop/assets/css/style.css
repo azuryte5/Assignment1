@@ -75,9 +75,12 @@ p {
 }
 
 .content {
-    width: 75%;
+    width: 76%;
     display: inline-block;
     margin-left: 20px;
+}
+.content p {
+    font-size: 22px;
 }
 /* Fixed over size image */
 .content img {
@@ -95,6 +98,9 @@ p {
     background-color: #2589bd;
 }
 
+.benefits p {
+    font-size: 20px;
+}
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -127,19 +133,19 @@ p {
 
 .benefit-lead img {
     display: block;
-    margin: 10px auto;
+    margin: 0px auto;
     max-width: 150px;
 }
 
 .benefit-brand img {
     display: block;
-    margin: 10px auto;
+    margin: 0px auto;
     max-width: 150px;
 }
 
 .benefit-cost img {
     display: block;
-    margin: 10px auto;
+    margin: 0px auto;
     max-width: 150px;   
 }
 

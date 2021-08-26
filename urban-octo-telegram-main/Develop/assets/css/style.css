@@ -38,10 +38,6 @@ header nav {
     float: right;
     font-size: 20px;
     font-weight: bold;
-
-}
-
-header nav ul {
     list-style-type: none;
     text-decoration: none;
 }
@@ -50,7 +46,7 @@ header nav ul li {
     display: inline-block;
     margin-left: 10px;
 }
-p {
+content p {
     font-size: 16px;
 }
 
@@ -75,18 +71,21 @@ p {
 }
 
 .content {
-    width: 76%;
+    width: 77%;
     display: inline-block;
     margin-left: 20px;
 }
 .content p {
-    font-size: 22px;
+    font-size: 18px;
 }
 /* Fixed over size image */
 .content img {
     max-height: 200px;
 }
 
+.content div {
+    margin: 20px;
+}
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,54 +100,21 @@ p {
 .benefits p {
     font-size: 20px;
 }
-.benefit-lead {
+.benefit-box {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-box h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit-box img {
     display: block;
     margin: 0px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 0px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 0px auto;
-    max-width: 150px;   
-}
-
 /* Fixed oversized image by making content class here 
 .content {
     margin-bottom: 20px;
@@ -200,18 +166,17 @@ p {
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
-    font-size: 42px;
-    line-height: 1.5;
+    font-size: 46px;
 }
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 46px;
 }
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 46px;
 }
 
 .footer {

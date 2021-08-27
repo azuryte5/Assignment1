@@ -9,7 +9,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* Why have headers as class */
+/* Why have headers as class, removed unnecessary classes */
 
 header {
     padding: 20px 0px;
@@ -42,7 +42,7 @@ header a {
     color: #d9dcd6;
     padding: 20px;
   }
-
+/* I changed the image settings to get my browser to match the mock up image as close as I could.*/
 .hero {
     height: 1050px;
     width: 100%;
@@ -113,7 +113,7 @@ header a {
     background-color: #2589bd;
     font-size: 20px;
 }
-
+/* I made up a new class to recombine css into a cleaner simpler code*/
 .benefit-box {
     margin-bottom: 32px;
     color: #ffffff;

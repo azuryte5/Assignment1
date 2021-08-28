@@ -9,7 +9,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* Why have headers as class, removed unnecessary classes */
+/* Why have headers as class, removed unnecessary classes, recombined some classes */
 
 header {
     padding: 20px 0px;
@@ -130,7 +130,7 @@ header a {
     max-width: 130px;
 }
 
-/* There is no footer in mock up image, so I removed it.
+/* There is no footer in mock up image, so I disabled this part of code. It would have included it but the instructions were unclear about not changing code and I did more work than necessary 
 .footer {
     padding: 30px;
     clear: both;

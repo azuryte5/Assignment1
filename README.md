@@ -28,12 +28,10 @@ THEN I find a concise, descriptive title
 
 - I made up some of my own classes, and recombined CSS to minimize space while keeping code intact to match mock up
 
-- I made the git repository with the directory "urban-octo-telegram-main" but ideally I would have removed this folder but I didn't know how to do this just yet. Challenge 2 I'll be sure to start in the correct directory.
-
-- There was no footer in the mock up so I removed it but it seemed strange to have web content with no footer, so I kept it in comments for the time being.
+- There was no footer in the mock up so I removed it but it seemed strange to have web content with no footer, so I kept it in comments for the time being. I tried my best to match the webpage to the mock up provide. If I was supposed to leave the code content alone the mock up should match the webpage provided. 
 
 ## Website
-https://github.com/azuryte5/Assignment1
+https://azuryte5.github.io/horiseon-webpage/
 
 ## Contribution
 Made with ❤️ by Andrew Lefebvre
